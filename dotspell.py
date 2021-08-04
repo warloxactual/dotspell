@@ -12,7 +12,7 @@ def launch():
 	time.sleep(5)
 	
 	url = "https://mailbait.info/run.html"
-	driver = webdriver.Chrome('/home/codeshaman/Desktop/chromedriver')
+	driver = webdriver.Chrome('</PATH TO YOUR CHROMEDRIVER>')
 	for i in range(windows):
 	    driver.switch_to.window(driver.window_handles[-1])
 	    driver.get(url)
