@@ -12,19 +12,21 @@ denail or rejection emails at 80-100kb each.
 * Can run on any operating system.
 * Gmail, Yahoo, Protonmail and more are all succeptible to overload.
 
-### Install
-
-```
-$ git clone https://github.com/warloxactual/dotspell.git
-```
-
 ### Quick Usage
 
-Change into the directory where you cloned dotspel.py and type:
+```shell
+# Install
+git clone https://github.com/warloxactual/dotspell.git
+sudo apt-get autoremove && sudo apt autoremove
+
+# Run
+$ for i in {1..5}; do python3 dotpsell.py; do
 
 ```
-$ for i in {1..5}; do python3 dotpsell.py; do
-```
+
+### Documentation
+
+Documentation under development and will be fleshed out as more features are released.
 
 This is a Python script created by Warlox LLC a blockchain and cybersecurity IP holding company in Silicon Valley.
 
@@ -36,10 +38,6 @@ We have no metric for how many of these attempts are successful but with the mil
 attempts being run, even 0.01% success would permanently render an email account useless.
 Regardless, the point is not successful signups but confirmation emails en masse to "pop"
 the maximum data usage on most free email accounts including Gmail.
-
-In the terminal navigate to where you clone this file and run:
-
-> for i in {1..10}; do python3 dotspell.py; done
 
 Enter the target email address and just walk away... just walk away...
 
