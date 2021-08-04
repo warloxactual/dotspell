@@ -6,7 +6,6 @@ email = input('Please enter target email address: ')
 driver = webdriver.Chrome() 
 url = "https://mailbait.info/run.html"
 
-
 for i in range(10):
     driver.switch_to.window(driver.window_handles[-1])
     driver.get(url)
@@ -20,16 +19,15 @@ for i in range(10):
 
     run = driver.find_element_by_id('runt')
     run.click()
-
-    categories_check.click()
+    
     print(f'The current tab is: {i + 1}')
+    categories_check.click()
     
     print('Sleeping for 300 seconds...')
     time.sleep(300)  
 
     driver.execute_script("window.open('https://mailbait.info/run.html');")
-
-
+    
 driver.close()
 
 print(10*"-")
