@@ -15,7 +15,7 @@ It is recommended that you have a VPN with a killswitch engaged at all times.
 
 ```shell
 # Install
-sudo apt-get autoremove && sudo apt autoremove git clone https://github.com/warloxactual/dotspell.git
+sudo apt-get autoremove && sudo apt autoremove git clone https://github.com/warloxactual/dotspell.py.git
 
 # Run
 $ for i in {1..5}; do python3 dotpsell.py; do
