@@ -1,12 +1,10 @@
 # dotspell
 
 -----------------------
+Dotspell.py is a powerful email security testing tool that overloads free email accounts with thousands of non-rejectable newsletter confirmation denial or rejection emails at 80-100kb each.
+-----------------------
 DISCLAIMER: Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
------------------------
-
-Dotspell.py is a powerful email security testing tool that overloads free email accounts with thousands of non-rejectable newsletter confirmation
-denail or rejection emails at 80-100kb each.
 
 * Only need the target's email address
 * Can run on any operating system.
