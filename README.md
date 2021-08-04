@@ -1,9 +1,8 @@
 # Dotspell.py - Damage Over Time Email Attack
 
 -----------------------
-Dotspell.py is a powerful email security testing tool that overloads free email accounts with thousands of non-rejectable newsletter confirmation denial or rejection emails at 80-100kb each.
+Dotspell.py is a powerful email security testing tool made by Warlox LLC that overloads free email accounts with thousands of non-rejectable newsletter confirmation denial or rejection emails at 80-100kb each.
 -----------------------
-For more information please visit: https://www.warlox.org
 
 * Only need the target's email address
 * Can run on any operating system.
