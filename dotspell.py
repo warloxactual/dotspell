@@ -41,5 +41,4 @@ def launch():
     
 	driver.close()
     	
-
 launch()
