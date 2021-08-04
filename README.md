@@ -21,6 +21,7 @@ sudo apt-get autoremove && sudo apt autoremove git clone https://github.com/warl
 $ for i in {1..5}; do python3 dotpsell.py; do
 
 ```
+Enter the target email address and just walk away... just walk away...
 
 ### Description
 
@@ -48,11 +49,4 @@ Documentation under development and will be fleshed out as more features are rel
 
 Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
-
-We have no metric for how many of these attempts are successful but with the millions of
-attempts being run, even 0.01% success would permanently render an email account useless.
-Regardless, the point is not successful signups but confirmation emails en masse to "pop"
-the maximum data usage on most free email accounts including Gmail.
-
-Enter the target email address and just walk away... just walk away...
 
