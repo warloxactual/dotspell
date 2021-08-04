@@ -20,7 +20,7 @@ attempts being run, even 0.01% success would permanently render an email account
 Regardless, the point is not successful signups but confirmation emails en masse to "pop"
 the maximum data usage on most free email accounts including Gmail.
 
-In the terminal run:
+In the terminal navigate to where you clone this file and run:
 
 > for i in {1..10}; do python3 dotspell.py; done
 
