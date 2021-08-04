@@ -35,7 +35,9 @@ millions depending on how many times the script is run.
 
 Eventually a good percentage of these either end up prompting confirmation requests or even
 possibly signing the email up successfully. We have no metric for successful sign ups and even
-0.01% successful signups would permanently render an email address unusable.
+0.01% successful signups would permanently render an email address unusable. However, the point
+is to trigger the confirmation emails from legitimate sources and use up all of their free email
+data not necessarily to successfully sign the email address up for newsletters.
 
 ### Documentation
 
