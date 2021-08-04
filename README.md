@@ -1,7 +1,9 @@
 # dotspell
 
 -----------------------
-
+DISCLAIMER: Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
+is done with the full written permission of the owner of the email address being targetted.
+-----------------------
 
 Dotspell.py is a powerful email security testing tool that overloads free email accounts with thousands of non-rejectable newsletter confirmation
 denail or rejection emails at 80-100kb each.
@@ -10,10 +12,19 @@ denail or rejection emails at 80-100kb each.
 * Can run on any operating system.
 * Gmail, Yahoo, Protonmail and more are all succeptible to overload.
 
-DISCLAIMER: Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
-is done with the full written permission of the owner of the email address being targetted.
+### Install
 
-Dotspell.py -The official Warlox LLC Damage Over Time Email Attack
+```
+$ git clone https://github.com/warloxactual/dotspell.git
+```
+
+### Quick Usage
+
+Change into the directory where you cloned dotspel.py and type:
+
+```
+$ for i in {1..5}; do python3 dotpsell.py; do
+```
 
 This is a Python script created by Warlox LLC a blockchain and cybersecurity IP holding company in Silicon Valley.
 
