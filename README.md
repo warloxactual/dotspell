@@ -12,6 +12,10 @@ Dotspell.py is a powerful email security testing tool made by Warlox LLC that ov
 
 It is recommended that you have a VPN with a killswitch engaged at all times.
 
+Download the appropriate Chrome WebDriver for your system and place the extracted chromedriver and add it to your PATH variable.
+
+https://chromedriver.chromium.org/downloads
+
 ```shell
 # Install
 sudo apt-get autoremove && sudo apt autoremove git clone https://github.com/warloxactual/dotspell.py.git
