@@ -6,7 +6,7 @@ def launch():
 	email = input('Please enter target email address: ')
 	windows = int(input('How many Windows of 10 Attack Tabs would you like to open? '))
 	
-	print(f'Attack Tabs will be opened sequentially until 10 per window are reached for a total of {windows * 10} attack tabs over 6 minutes.')
+	print(f'Attack Tabs will be opened sequentially until 10 per window are reached for a total of {windows * 10} attack tabs over 60 minutes.')
 	time.sleep(5)
 	print('Starting attack in 5 seconds')
 	time.sleep(5)
