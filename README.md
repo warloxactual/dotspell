@@ -1,7 +1,6 @@
 # dotspell
 
-<img src="https://imgur.com/a/ckYWnPo" width="200">
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/ckYWnPo" data-context="false" ><a href="//imgur.com/a/ckYWnPo"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 -----------------------
 DISCLAIMER: Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
