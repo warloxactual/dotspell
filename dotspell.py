@@ -25,8 +25,7 @@ for i in range(10):
     print(f'The current tab is: {i + 1}')
     
     print('Sleeping for 300 seconds...')
-    time.sleep(300)
-    
+    time.sleep(300)  
 
     driver.execute_script("window.open('https://mailbait.info/run.html');")
 
