@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 from random import randint
 
-email = 'toastaccount@protonmail.com'
+email = input('Please enter target email address: ')
 driver = webdriver.Chrome() 
 url = "https://mailbait.info/run.html"
 
