@@ -17,6 +17,8 @@ crawlers from actually signing people up for newsletters.
 
 We have no metric for how many of these attempts are successful but with the millions of
 attempts being run, even 0.01% success would permanently render an email account useless.
+Regardless, the point is not successful signups but confirmation emails en masse to "pop"
+the maximum data usage on most free email accounts including Gmail.
 
 In the terminal run:
 
