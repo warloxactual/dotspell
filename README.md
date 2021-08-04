@@ -1,5 +1,7 @@
 # dotspell
 
+<img src="https://imgur.com/a/ckYWnPo" width="200">
+
 -----------------------
 DISCLAIMER: Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
