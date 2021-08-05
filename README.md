@@ -61,6 +61,6 @@ is done with the full written permission of the owner of the email address being
 
 ### What Tools Are You Working On After Dotspell.py?
 
-We are likely going to release a tool called [Wormhole.py](https://github.com/warloxactual/wormhole.py) that abuses instances of free Heroku dynos, 
-which we call [Acolytes](https://github.com/warloxactual/acolytes.py) to spool up endless targetted popups via malicious banners.
+We are likely going to release a tool called [Wormhole.py](https://github.com/warloxactual/wormhole.py) that abuses a network of instances of free Heroku dynos, 
+which we call [Acolytes.py](https://github.com/warloxactual/acolytes.py) to spool up endless targetted popups via malicious banners.
 
