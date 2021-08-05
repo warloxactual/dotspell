@@ -59,8 +59,3 @@ Documentation under development and will be fleshed out as more features are rel
 Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
 
-### What Tools Are You Working On After Dotspell.py?
-
-We are likely going to release a tool called [Wormhole.py](https://github.com/warloxactual/wormhole.py) that abuses a network of instances of free Heroku dynos, 
-which we call [Acolytes.py](https://github.com/warloxactual/acolytes.py) to spool up endless targetted popups via malicious banners.
-
