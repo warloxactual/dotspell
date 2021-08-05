@@ -43,10 +43,6 @@ possibly signing the email up successfully. We have no metric for successful sig
 is to trigger the confirmation emails from legitimate sources and use up all of their free email
 data not necessarily to successfully sign the email address up for newsletters.
 
-### Screenshots
-
-![alt text] (https://imgur.com/a/FKo3Vfr)
-
 ### Documentation
 
 Documentation under development and will be fleshed out as more features are released.
