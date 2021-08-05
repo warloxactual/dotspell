@@ -59,3 +59,10 @@ Documentation under development and will be fleshed out as more features are rel
 Warlox LLC accepts no liability for the use of this tool and assumes that any and all use
 is done with the full written permission of the owner of the email address being targetted.
 
+### What Tools Are You Working On After Dotspell.py?
+
+We are likely going to release a tool that abuses free Heroku dynos to spool up targetted popups
+via malicious banners in forums using Python and some JavaScript. This will be both a demonstration
+of a vulnerability, or potential malicious use case of Heroku, and a type of XSS/botnet hybrid using
+only free Heroku dynos.
+
