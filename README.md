@@ -61,8 +61,6 @@ is done with the full written permission of the owner of the email address being
 
 ### What Tools Are You Working On After Dotspell.py?
 
-We are likely going to release a tool that abuses free Heroku dynos to spool up targetted popups
-via malicious banners in forums using Python and some JavaScript. This will be both a demonstration
-of a vulnerability, or potential malicious use case of Heroku, and a type of XSS/botnet hybrid using
-only free Heroku dynos.
+We are likely going to release a tool called Rabbit Hole that abuses instances of free Heroku dynos, 
+which we call Acolytes to spool up endless targetted popups via malicious banners.
 
