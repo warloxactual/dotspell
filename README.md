@@ -45,9 +45,9 @@ data not necessarily to successfully sign the email address up for newsletters.
 
 ### Screenshots
 
-![Blast their inbox with a torrential flood of confirm messages that can't be rejected!](dotspell_screenshot1.jpg)
+![Blast their inbox with a torrential flood of confirm messages that can't be rejected!](./images/dotspell_screenshot1.jpg)
 
-![Send millions of form requests!](dotspell_screenshot2.jpg)
+![Send millions of form requests!](./images/dotspell_screenshot2.jpg)
 
 ### Documentation
 
