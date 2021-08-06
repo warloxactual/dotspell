@@ -34,10 +34,10 @@ def launch():
 	    time.sleep(300)  
 
 	    driver.execute_script("window.open('https://mailbait.info/run.html');")
-
-    print(10*"-")
-    print('Browser Window of 10 Attack Tabs at Full Speed = Complete')
-    print(10*"-")
+		
+	print(10*"-")
+	print('Browser Window of 10 Attack Tabs at Full Speed = Complete')
+	print(10*"-")
     
 	driver.close()
     	
